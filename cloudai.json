@@ -1,0 +1,20 @@
+
+{
+  "appName": "Cloud AI",
+  "version": "2.0.0",
+  "ai": {
+    "provider": "browser",
+    "useOllama": false,
+    "model": "Qwen2.5-3B",
+    "requireApiKey": false,
+    "downloadModelOnFirstUse": true
+  },
+  "chat": {
+    "saveHistory": true,
+    "codeCopyButtons": true
+  },
+  "appearance": {
+    "theme": "dark",
+    "accentColors": ["#8b5cf6", "#60a5fa"]
+  }
+}
