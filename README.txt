@@ -42,3 +42,7 @@ NOTES
 - Guest chats stay in the current browser.
 - The AI model downloads from the internet on first use and needs a compatible browser/WebGPU.
 - GitHub Pages is static hosting and cannot run Ollama locally.
+
+
+V3 FASTER AI NOTE
+This version uses the smaller onnx-community/SmolLM2-135M-Instruct model instead of Qwen2.5-0.5B to reduce download and startup time. It cannot guarantee loading in 5 seconds: first-time model downloads depend on internet speed, browser cache, and hardware. After it has cached, later loads should be quicker. It may be less capable than the larger model.
