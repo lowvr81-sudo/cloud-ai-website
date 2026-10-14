@@ -1,0 +1,10 @@
+Cloud AI account status screens
+Upload account-status.html to the root of your GitHub Pages repository.
+
+Show banned state:
+https://lowvr81-sudo.github.io/cloud-ai-website/account-status.html?status=banned
+
+Show deleted/missing cloud data state:
+https://lowvr81-sudo.github.io/cloud-ai-website/account-status.html?status=deleted
+
+IMPORTANT: These are display pages only. They do not ban accounts, delete data, or detect either condition automatically. Your app's authentication/database code must redirect to the appropriate URL after it confirms the status.
